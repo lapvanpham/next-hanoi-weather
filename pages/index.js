@@ -18,6 +18,7 @@ export default function Home({ weatherData }) {
         </h1>
         <ul>
           <li>{name} - {weather[0].main}</li>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
           <li>Min Temperature: {FtoC(main.temp_min)}</li>
           <li>Max Temperatire: {FtoC(main.temp_max)}</li>
 
